@@ -1,14 +1,11 @@
-on:
-  issues:
-    types:
-      - opened
-  workflow_dispatch:
+name: Example Workflow for Environment Files
 
-
+on: push
 
 jobs:
-  label_issue:
+  set_and_use_env_vars:
     runs-on: ubuntu-latest
     steps:
-        run:
-          echo "::warning::sex evil\n::warning::yeah::"
+      - name: sex
+        run: |
+          echo "::warning::sex"
