@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: sex
         run: |
-          echo -e "::warning::sex\u2029::error::wahhhhh"
+          printf "WORKING\nA\x0bB\x0cC\x1cD\x1dE\x1eF\x85G\u2028H\u2029I"
