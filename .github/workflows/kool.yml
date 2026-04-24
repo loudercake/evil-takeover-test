@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: sex
         run: |
-          echo -e "::warning::sex\u2028::error::wahhhhh"
+          echo -e "::warning::sex\u2029::error::wahhhhh"
