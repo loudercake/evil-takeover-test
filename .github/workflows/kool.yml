@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: sex
         run: |
-          printf "WORKING\nA\x0bB\x0cC\x1cD\x1dE\x1eF\x85G\u2028H\u2029I"
+          printf "WORKING\nA\vB\x0cC\x1cD\x1dE\x1eF\x85G\u2028H\u2029I"
